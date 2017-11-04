@@ -1,0 +1,217 @@
+{
+"BaseResponse": {
+"Ret": 0,
+"ErrMsg": ""
+}
+,
+"AddMsgCount": 2,
+"AddMsgList": [{
+"MsgId": "3047325274455636419",
+"FromUserName": "@0de65f8c58376e11eb702520ed4bbe0a0194d43fc2351ad4357fb4a3013a4c10",
+"ToUserName": "@0de65f8c58376e11eb702520ed4bbe0a0194d43fc2351ad4357fb4a3013a4c10",
+"MsgType": 51,
+"Content": "",
+"Status": 3,
+"ImgStatus": 1,
+"CreateTime": 1509764339,
+"VoiceLength": 0,
+"PlayLength": 0,
+"FileName": "",
+"FileSize": "",
+"MediaId": "",
+"Url": "",
+"AppMsgType": 0,
+"StatusNotifyCode": 4,
+"StatusNotifyUserName": "filehelper,@2a8550e1ce2ee1b5cdccf2f080b47c61eb277ca7ecb812ed272ee628a41b27a9,qqmail,@26cb213c0bdbe5482aba13f2839d1c67,@b59f1f9157116d675f505b7d64eebf9b5cbdee5e5c7550630ca11832c54a5666,weixin",
+"RecommendInfo": {
+"UserName": "",
+"NickName": "",
+"QQNum": 0,
+"Province": "",
+"City": "",
+"Content": "",
+"Signature": "",
+"Alias": "",
+"Scene": 0,
+"VerifyFlag": 0,
+"AttrStatus": 0,
+"Sex": 0,
+"Ticket": "",
+"OpCode": 0
+}
+,
+"ForwardFlag": 0,
+"AppInfo": {
+"AppID": "",
+"Type": 0
+}
+,
+"HasProductId": 0,
+"Ticket": "",
+"ImgHeight": 0,
+"ImgWidth": 0,
+"SubMsgType": 0,
+"NewMsgId": 3047325274455636419,
+"OriContent": ""
+}
+,{
+"MsgId": "2615060005197116036",
+"FromUserName": "@2a8550e1ce2ee1b5cdccf2f080b47c61eb277ca7ecb812ed272ee628a41b27a9",
+"ToUserName": "@0de65f8c58376e11eb702520ed4bbe0a0194d43fc2351ad4357fb4a3013a4c10",
+"MsgType": 1,
+"Content": "你好啊",
+"Status": 3,
+"ImgStatus": 1,
+"CreateTime": 1509764345,
+"VoiceLength": 0,
+"PlayLength": 0,
+"FileName": "",
+"FileSize": "",
+"MediaId": "",
+"Url": "",
+"AppMsgType": 0,
+"StatusNotifyCode": 0,
+"StatusNotifyUserName": "",
+"RecommendInfo": {
+"UserName": "",
+"NickName": "",
+"QQNum": 0,
+"Province": "",
+"City": "",
+"Content": "",
+"Signature": "",
+"Alias": "",
+"Scene": 0,
+"VerifyFlag": 0,
+"AttrStatus": 0,
+"Sex": 0,
+"Ticket": "",
+"OpCode": 0
+}
+,
+"ForwardFlag": 0,
+"AppInfo": {
+"AppID": "",
+"Type": 0
+}
+,
+"HasProductId": 0,
+"Ticket": "",
+"ImgHeight": 0,
+"ImgWidth": 0,
+"SubMsgType": 0,
+"NewMsgId": 2615060005197116036,
+"OriContent": ""
+}
+],
+"ModContactCount": 0,
+"ModContactList": [],
+"DelContactCount": 0,
+"DelContactList": [],
+"ModChatRoomMemberCount": 0,
+"ModChatRoomMemberList": [],
+"Profile": {
+"BitFlag": 0,
+"UserName": {
+"Buff": ""
+}
+,
+"NickName": {
+"Buff": ""
+}
+,
+"BindUin": 0,
+"BindEmail": {
+"Buff": ""
+}
+,
+"BindMobile": {
+"Buff": ""
+}
+,
+"Status": 0,
+"Sex": 0,
+"PersonalCard": 0,
+"Alias": "",
+"HeadImgUpdateFlag": 0,
+"HeadImgUrl": "",
+"Signature": ""
+}
+,
+"ContinueFlag": 0,
+"SyncKey": {
+"Count": 8,
+"List": [{
+"Key": 1,
+"Val": 677271095
+}
+,{
+"Key": 2,
+"Val": 677271477
+}
+,{
+"Key": 3,
+"Val": 677271342
+}
+,{
+"Key": 11,
+"Val": 677270247
+}
+,{
+"Key": 13,
+"Val": 677270014
+}
+,{
+"Key": 201,
+"Val": 1509764345
+}
+,{
+"Key": 1000,
+"Val": 1509758042
+}
+,{
+"Key": 1001,
+"Val": 1509758053
+}
+]
+}
+,
+"SKey": "",
+"SyncCheckKey": {
+"Count": 8,
+"List": [{
+"Key": 1,
+"Val": 677271095
+}
+,{
+"Key": 2,
+"Val": 677271477
+}
+,{
+"Key": 3,
+"Val": 677271342
+}
+,{
+"Key": 11,
+"Val": 677270247
+}
+,{
+"Key": 13,
+"Val": 677270014
+}
+,{
+"Key": 201,
+"Val": 1509764345
+}
+,{
+"Key": 1000,
+"Val": 1509758042
+}
+,{
+"Key": 1001,
+"Val": 1509758053
+}
+]
+}
+
+}

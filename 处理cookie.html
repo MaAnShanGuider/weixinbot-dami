@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+</body>
+<script>
+
+	function boom(){
+		return new Promise((resolve,reject)=>{
+			var a = 0;
+			var timer = setInterval(function(){
+				if(a == 4){
+					resolve();
+					a = 0;
+				}
+				else{
+					a++;
+					reject();
+				}
+					
+					
+				
+
+			},200)
+		})
+	}
+
+	boom().then(()=>{console.log('wocoanima')}).catch(()=>{console.log('只会执行一次')})
+	/*var cook = 'window.code=200;';
+	//50位，到 ，61位
+
+	boom=(str)=>{
+		
+		return(str.slice(12,15));	
+	}	
+	console.log(boom(cook));*/
+
+	//----正则匹配所有双引号内的所有文字
+	
+/*	var str1 = '我要说："我喜欢你"';
+	// var str2 = '123456';
+	var reg = /\"(.*?)\"/;
+	// var reg = /1^$6/;
+	console.log(reg.exec(str1)[1]);*/
+
+
+	//-------时间戳
+	// var nowtime= new Date();
+	// console.log(nowtime.getTime());
+
+/*	function a(){
+		return new Promise((resolve,reject)=>{
+			var nowtime= new Date();
+			var str = '我很好';
+			var obj = {};
+				obj.str = str;
+				obj.nowtime = nowtime;
+			console.log('我是a的nowtime:'+obj.nowtime);
+			resolve(obj);
+		})
+	}
+
+	function b(obj){
+		return new Promise((resolve,reject)=>{
+				console.log('我是b的str:'+obj.str);
+				console.log('我是b的nowtime:'+obj.nowtime);
+				resolve(obj);
+		})
+	}
+	function c(obj){
+		return new Promise((resolve,reject)=>{
+				console.log('我是c的str:'+obj.str);
+				console.log('我是c的nowtime:'+obj.nowtime);
+				resolve(obj);
+		})
+	}
+
+	function d(obj){
+		console.log('我是d的str:'+obj.str);
+		console.log('我是d的nowtime:'+obj.nowtime);
+	}
+*/
+/*
+	a().then((obj)=>{
+		return b(obj);
+	}).then((obj)=>{
+		return c(obj);	
+	}).then((obj)=>{d(obj)})*/
+
+	//-------resolve只能接受一个参数，参数可以是任意类型的值。
+	//
+	//
+
+/*	function boom(){
+		var a = 0;
+		let timer = setInterval(function(){
+			if(a >=5 ){
+				console.log('停止定时器');
+				clearInterval(timer);
+			}
+			else{
+				console.log(a);
+				a++;
+			}
+		},5000)
+	}
+	boom();*/
+</script>
+</html>
